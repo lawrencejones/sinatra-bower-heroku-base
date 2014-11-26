@@ -1,0 +1,28 @@
+doctype html
+
+head
+
+  script(src='/jquery/dist/jquery.js')
+  script(src='/angular/angular.js')
+  script(src='/tv4/tv4.js')
+  script(src='/bootstrap/dist/js/bootstrap.js')
+  script(src='/app.js')
+
+  link(rel='stylesheet' type='text/css' href='/bootstrap/dist/css/bootstrap.css')
+  link(rel='stylesheet' type='text/css' href='/app.css')
+
+body(ng-app='<APP_NAME>' ng-controller='AppCtrl')
+
+  .container(style='text-align:center')
+
+    .row
+      .col-md-12
+        h1
+          | <APP_NAME>
+
+    .row
+
+      .col-md-12
+        h2
+          | Content
+
