@@ -1,3 +1,3 @@
 # <APP_NAME>
 
-Template readme
+Run `./configure.sh APP_NAME` to replace all project title placeholders with project name.
