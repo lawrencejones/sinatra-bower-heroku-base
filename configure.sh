@@ -5,3 +5,4 @@ do
 done
 
 rm -rf $0 ./.git && git init
+npm install
